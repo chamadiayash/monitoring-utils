@@ -1,0 +1,22 @@
+{
+  "name": "monitoring-utils",
+  "version": "1.0.0",
+  "description": "Common Utility Library",
+  "main": "src/index.js",
+  "repository": "https://github.com/chamadiayash/monitoring-utils.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utility",
+    "agewage",
+    "common"
+  ],
+  "author": "chamadia.yash@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "prom-client": "^13.1.0",
+    "winston-logstash-transporter": "^1.1.0"
+  }
+}
